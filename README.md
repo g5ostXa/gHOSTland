@@ -14,11 +14,12 @@
 Project structure:
 
 ```go
-./gHOSTland/
+gHOSTland/
 ├── about.html
 ├── assets
 │   ├── audio
-│   │   └── Alone.m4a
+│   │   ├── Alone.m4a
+│   │   └── LICENSE
 │   └── images
 │       ├── CA1C8640-F607-4D15-8233-ECDC336F2505.PNG
 │       ├── FBB5C727-D68A-4DB6-844F-3C6D4F40F841.png
@@ -34,5 +35,5 @@ Project structure:
 ├── README.md
 └── styles.css
 
-7 directories, 12 files
+7 directories, 13 files
 ```
