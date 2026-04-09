@@ -1,0 +1,113 @@
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    background-color: #090A13;
+    color: #cdbeff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #090A13;
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+
+header.tabs .tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+}
+
+.tab {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cdbeff;
+    cursor: pointer;
+    padding: 3px 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.tab:hover {
+    background-color: #0bffae;
+    color: #090A13;
+}
+
+.container {
+    font-size: 22px;
+    background-color: #090A13;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-image {
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.main-image:hover,
+.icon-style:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 7px) {
+    .main-image {
+        max-width: 100%;
+    }
+}
+
+.typing-svg {
+    filter: drop-shadow(2 0 5px #0bffae);
+    max-width: 100%;
+    height: auto;
+}
+
+code {
+    word-wrap: break-word;
+    max-width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+audio { 
+    width: 260px;
+    border-style: groove; 
+    border-color: slateblue;
+    box-shadow: 10px 5px 30px rgba(141, 92, 249, 0.339);
+}
+
+.footer {
+    text-align: center;
+    margin: 5px 5;
+    padding: 10px 0;
+    color: #cdbeff;
+    background-color: #090A13;
+    color: d;
+    width: 100%;
+    position: relative;
+}
