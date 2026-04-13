@@ -15,7 +15,6 @@ Project structure:
 
 ```go
 gHOSTland/
-├── about.html
 ├── assets
 │   ├── audio
 │   │   ├── Alone.m4a
@@ -23,11 +22,13 @@ gHOSTland/
 │   └── images
 │       ├── CA1C8640-F607-4D15-8233-ECDC336F2505.PNG
 │       ├── FBB5C727-D68A-4DB6-844F-3C6D4F40F841.png
+│       ├── guitar-courses.png
 │       ├── IMG_1206.png
 │       └── IMG_1209.png
 ├── .github
 │   └── workflow
 │       └── main.yaml
+├── guitar-courses.html
 ├── index.html
 ├── .keys
 │   └── g5ostXa_publickey.asc
@@ -35,5 +36,5 @@ gHOSTland/
 ├── README.md
 └── styles.css
 
-7 directories, 13 files
+7 directories, 14 files
 ```
